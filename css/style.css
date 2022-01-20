@@ -96,6 +96,7 @@ body {
     
     height: 40em;
 }
+/*Logo*/
 .logo {
     display: flex;
     align-items: center;
@@ -108,13 +109,15 @@ body {
     background-repeat: no-repeat;
 
 }
+/*Barra de búsqueda*/
 .busqueda {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 3em;
-    width: 95em;
+    height: 2.5em;
+    width: 33em;
+    border-radius: 2em;
 
     margin-top: -6em;
 }
@@ -161,8 +164,47 @@ body {
     background-image: url(../img/micro.png);
     background-repeat: no-repeat;
     background-size: 2em;
-    background-position: center;
-
+    background-position: center; 
+}
+.busqueda:hover {
+    box-shadow: 0.2em 0.2em 0.3em rgb(185, 183, 183);  
+}
+/*Botones*/
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 3em;
+    width: 30em;
+  
+    margin-top: 1em;
+    font-size: 0.8em;
+}
+.buscarGoogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    width: 10em;
+}
+.suerte {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    width: 10em;
+}
+.buscarGoogle:hover {
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    border-width: 0.1em;
+}
+.suerte:hover {
+    border-style: solid;
+    border-color: rgb(180, 180, 180);
+    border-width: 0.1em;
 }
 /*Pie de página*/
 .espana {
