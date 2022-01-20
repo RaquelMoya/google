@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 .padre{
-    height: 52em;
+    height: 50em;
     width: 95em;
 
     margin: 0;
@@ -36,27 +36,69 @@ body {
     justify-content: flex-start;
 
     padding-left: 2em;
-    height: 4em;
+    height: 3em;
     background-color: palevioletred;
 }
 .pie {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 4em;
+  
+    height: 3em;
     background-color: powderblue;
 }
 .espacio {
-    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44em;
 }
 .publi {
-   padding-left: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   padding-left: 1em;
+   width: 7em;
 }
 .empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0;
     padding: 0;
+    width: 7em;
 }
 .config {
-    padding-right: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-right: 1em;
+    width: 7em;
+}
+.term {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 7em;
+}
+.priv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 7em;
+}
+.como {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 16em;
+}
+img {
+    height: 1em;
 }
