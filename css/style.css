@@ -37,14 +37,20 @@ body {
 
     padding-left: 2em;
     height: 3em;
-    background-color: palevioletred;
+    background-color: rgb(229, 226, 226);
 }
 .pie {
     display: flex;
     flex-direction: row;
   
     height: 3em;
-    background-color: powderblue;
+    background-color: rgb(229, 226, 226);
+    border-top: grey;
+    border-style: solid;
+    border-width: 0.1em;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
 }
 .espacio {
     display: flex;
