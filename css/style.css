@@ -5,22 +5,88 @@ body {
 
     margin: 0;
     padding: 0;
+
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .padre{
-    height: 50em;
-    width: 95em;
+    height: 48em;
+    width: 95.5em;
 
     margin: 0;
     padding: 0;
 }
+/*Encabezado*/
 .encabezado {
     display: flex;
     flex-direction: row;
+    
+    background-color: white;
+    height: 2.5em;
+}
+.left {
+    display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 7em;
+}
+.left2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6em;
+}
+.center {
+    display: flex;
+    width: 58em;
+}
+.right4 {
+    display: flex;
+    align-items: center;
+    width: 5em;
+}
+.right3 {
+    display: flex;
+    align-items: center;
+    width: 5em;
+}
+.right2 {
+    display: grid;
+    align-items: center;
+    width: 3em;
 
-    background-color: aqua;
-    height: 4em;
+    background-color: yellow;
+}
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0.3em;
+    background-color: hotpink;
+}
+.punto {
+    border-radius: 50%;
+    background-color: grey;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9em;
+    padding-right: 1em;
+}
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.3em;
+
+    color: white;
+
+    width: 8em;
+    height: 2.2em;
+    background-color: rgb(66, 142, 230);
 }
 .cuerpo {
     display: flex;
@@ -29,6 +95,7 @@ body {
     background-color: palegreen;
     height: 40em;
 }
+/*Pie de página*/
 .espana {
     display: flex;
     flex-direction: row;
