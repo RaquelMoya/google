@@ -10,8 +10,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .padre{
-    height: 48em;
-    width: 95.5em;
+    height: 43em;
+    width: 95em;
 
     margin: 0;
     padding: 0;
@@ -20,9 +20,12 @@ body {
 .encabezado {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     
     background-color: white;
     height: 2.5em;
+    font-size: 0.9em;
 }
 .left {
     display: flex;
@@ -38,7 +41,7 @@ body {
 }
 .center {
     display: flex;
-    width: 58em;
+    width: 63em;
 }
 .right4 {
     display: flex;
@@ -51,21 +54,33 @@ body {
     width: 5em;
 }
 .right2 {
-    display: grid;
-    align-items: center;
-    width: 3em;
-
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: -0.2em;
+   
+    width: 2em;
+    height: 1.4em;
 }
 .grid {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 0.3em;
-    background-color: hotpink;
+    margin: 0em;
+    padding: -3em;
+    width: 2.5em;
+    height: 2.5em;
 }
+
 .punto {
-    border-radius: 50%;
+    height: 0.3em;
+    width: 0.3em;
+    margin-left: 0.1em;
+    margin-top: -0.3em;
+    margin-bottom: -0.3em;
+    padding: 0;
+    border-radius: 50% 50% 50% 50%;
     background-color: grey;
 }
 .right {
@@ -178,7 +193,7 @@ body {
     height: 3em;
     width: 30em;
   
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 0.8em;
 }
 .buscarGoogle {
@@ -206,6 +221,41 @@ body {
     border-color: rgb(180, 180, 180);
     border-width: 0.1em;
 }
+/*Frase por debajo de botones*/
+.ofrecido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size:small;
+    height: 2em;
+    width: 30em;
+    margin-top: 2em;
+}
+.catala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 5em;
+    color: blue;
+}
+.galego {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 5em;
+    color: blue;
+}
+.euskara {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 5em;
+    color: blue;
+}
 /*Pie de página*/
 .espana {
     display: flex;
@@ -215,6 +265,7 @@ body {
 
     padding-left: 2em;
     height: 3em;
+    width: 95em;
     background-color: rgb(229, 226, 226);
 }
 .pie {
@@ -222,6 +273,7 @@ body {
     flex-direction: row;
   
     height: 3em;
+    width: 95em;
     background-color: rgb(229, 226, 226);
     border-top: grey;
     border-style: solid;
